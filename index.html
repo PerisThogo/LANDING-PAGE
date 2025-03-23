@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DO IT ALL CONSULT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">DO IT ALL CONSULT</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Home Section -->
+<section id="home" class="hero">
+    <!-- Video Background  -->
+    <video autoplay muted loop id="hero-video">
+        <source src="videos/background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="container">
+        <h1>Your Trusted Accounting Partner</h1>
+        <p>We provide expert financial services to help your business grow. Let us handle the numbers so you can focus on what matters most.</p>
+        <div class="cta-buttons">
+            <a href="#services" class="btn btn-primary">Explore Services</a>
+            <a href="#contact" class="btn btn-secondary">Get a Free Consultation</a>
+        </div>
+
+        <!-- Scroll Indicator (Below Buttons) -->
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Tax Preparation</h3>
+                    <p>We handle all your tax needs, ensuring compliance and maximizing returns.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Financial Planning</h3>
+                    <p>Plan your financial future with our expert advice and strategies.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Audit & Assurance</h3>
+                    <p>We provide thorough audits to ensure financial transparency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+   <!-- About Us Section -->
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/about.JPG" alt="About Us Image">
+            </div>
+            <div class="about-text">
+                <h3>Your Trusted Accounting Partner</h3>
+                <p>Do At All Consult is a leading accounting firm with over 20 years of experience. We specialize in helping businesses and individuals manage their finances effectively. Our team of certified professionals is dedicated to providing personalized solutions tailored to your needs.</p>
+                <p>We believe in transparency, integrity, and delivering results that matter. Whether you need tax preparation, financial planning, or audit services, we’re here to help you achieve your financial goals.</p>
+                <a href="#contact" class="btn">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-item">
+                <div class="testimonial-avatar">
+                    <img src="images/1.jpg" alt="Client Avatar">
+                </div>
+                <p>"Do It All helped us streamline our finances and save on taxes. Highly recommended!"</p>
+                <h4>- Hannah Njeri, CEO of BizCorp</h4>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-avatar">
+                    <img src="images/2.jpg" alt="Client Avatar">
+                </div>
+                <p>"Professional, reliable, and always available. Great service!"</p>
+                <h4>- Eunice Wanjiku, Small Business Owner</h4>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-avatar">
+                    <img src="images/3.png" alt="Client Avatar">
+                </div>
+                <p>"Their financial planning services are top-notch. We’ve seen incredible growth!"</p>
+                <h4>- Michael Brown, Entrepreneur</h4>
+            </div>
+        </div>
+
+        <!-- Overall Rating and Rate Us Side by Side -->
+        <div class="rating-container">
+            <!-- Overall Rating -->
+            <div class="testimonial-rating">
+                <h3>Overall Rating</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Based on 123 reviews</p>
+            </div>
+
+            <!-- Rate Us -->
+            <div class="rating-form">
+                <h3>Rate Us</h3>
+                <form id="ratingForm">
+                    <div class="stars-input">
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                        <span class="star">&#9733;</span>
+                    </div>
+                    <button type="submit" class="btn">Submit Rating</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+   
+ <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder=" Malaika Temi" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder=" malaika@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Type your message here..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+   <!-- Footer Section -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo">DO IT ALL CONSULT</div>
+                <p>Your trusted partner in accounting and financial services.</p>
+            </div>
+            <div class="footer-socials">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DO IT ALL CONSULT. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
